@@ -1,0 +1,9 @@
+.ehw-menu {
+  background: red;
+  color: white;
+}
+
+.ehw-menu li {
+  margin: 0 20px;
+  display: inline-block;
+}
