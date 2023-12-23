@@ -40,7 +40,7 @@
     />
   </div>
   <div class="author-info">
-    <h3><a href="https://www.youtube.com/@TechiePress" target="_blank">Elementor Developers</a></h3>
+    <h3><a href="https://developers.elementor.com/docs/" target="_blank">Elementor Developers</a></h3>
     <p>Elementor is packed with dozens of useful widgets in the widgets panel. These widgets are divided into categories. Each widget has a set of custom controls (input fields) allowing end-users to enter data.</p>
   </div>
 </section>
