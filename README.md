@@ -35,7 +35,7 @@
 <section class="author-profile">
   <div class="author-img">
     <img
-      src="https://developers.elementor.com/docs/assets/img/icon.svg" width="200px"
+      src="https://developers.elementor.com/docs/assets/img/icon.svg" width="100px"
       alt="Instructor pic"
     />
   </div>
