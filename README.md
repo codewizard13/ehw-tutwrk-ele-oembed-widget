@@ -65,7 +65,7 @@ Complete working example custom Elementor widget plugin identified as "Simple Ex
 
 >Putting all these pieces together, we're going to create a simple Elementor widget which will use the native oEmbed functionality (opens new window)of WordPress to auto-embed content from external sites using simple URLs.
 
-#### TIP: the settings.json in .vscode/ folder is key to getting the compile to work.
+#### TIP: the settings.json in .vscode/ folder is key to getting the SASS -> CSS compile to work.
 
 ### Folder Structure
 
