@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Elementor oEmbed Widget
+ * Plugin Name: EHW Elementor oEmbed Widget
  * Description: Auto embed any embbedable content from external URLs into Elementor.
  * Plugin URI:  https://elementor.com/
  * Version:     1.0.0
