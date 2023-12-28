@@ -1,16 +1,16 @@
 <link rel="stylesheet" href="./css/style.css">
 
-| **Tutorial Name**    | **Build Custom Elementor Widgets from scratch [Playlist]** |
-| -------------------- | ---------------------------------------------------------- |
-| File Name            | README.md                                                  |
-| Date Created         | 12/21/23                                                   |
-| Date Modified        | --                                                         |
-| Platform             | Website                                                    |
-| Channel              | Elementor Developers                                      |
-| Version              | 0.0.1                                                      |
-| Programmer / Student | **Eric Hepperle**                                          |
+| **Tutorial Name**    | **Custom Elementor Widget: Simple Example**               |
+| -------------------- | --------------------------------------------------------- |
+| File Name            | README.md                                                 |
+| Date Created         | 12/28/23                                                  |
+| Date Modified        | --                                                        |
+| Platform             | Website                                                   |
+| Channel              | [Elementor Developers](https://developers.elementor.com/) |
+| Version              | 0.0.1                                                     |
+| Programmer / Student | **Eric Hepperle**                                         |
 
-* **Tutorial URL:** https://developers.elementor.com/docs/widgets/advanced-example/
+* **Tutorial URL:** https://developers.elementor.com/docs/widgets/simple-example/
 
 ### TECHNOLOGIES
 
@@ -47,7 +47,7 @@
 
 ## TAGS
 
-`WordPress` `Elementor` `Widgets` `Custom Widgets` `Code From Scratch` `WP` `Plugins` `Elementor Developers` `Custom Plugins`
+`WordPress` `Elementor` `Widgets` `Custom Widgets` `Code From Scratch` `WP` `Plugins` `Elementor Developers` `Custom Plugins` `oEmbed`
 
 ## Purpose
 

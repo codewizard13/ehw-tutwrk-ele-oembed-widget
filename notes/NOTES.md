@@ -18,11 +18,19 @@
 
 ---
 
-## Dev Environment
 
-### Install New Local WordPress Site
+### Folder Structure
 
-- Discourage search engine visibility
+```bash
+elementor-oembed-widget/
+|
+├─ widgets/
+|  └─ oembed-widget.php
+|
+└─ elementor-oembed-widget.php
+```
+
+### LOCATIONS
 
 - **REPO FOLDER:** ehw-tutwrk-ele-oembed-widget
 - **URL:** http://lardev-elsms.test/
@@ -30,8 +38,6 @@
 - **WEB SERVER:** Laragon
 - **GITHUB:** https://github.com/codewizard13/ehw-tutwrk-ele-oembed-widget
 
-
-## Video 1
 
 - Set `WP_DEBUG` to **true** in **wp-config.php**: This ensures that any errors will be displayed on screen.
 
@@ -52,51 +58,33 @@ define( 'WP_DEBUG_DISPLAY', false );
 ---
 
 - Navigate to `wp-content/plugins` folder
-- Create new folder - the folder name will be same as your main PHP file
-
-**#TIP:** To avoid any plugin name conflicts, in the WP Dashboard > Plugins > Click "Add New" and search for the plugin name that you want. This will tell you what plugins are likely to conflict so that you can give yours a unique enough name.
-
-
-- Create plugin folder **alecaddd-plugin**
-- Inside plugin folder create main plugin file **alecaddd-plugin.php**
-- Add the following to main plugin file contents:
-
-  - Declare package name: AlecadddPlugin
-
-Create comment block as follows:
-
-| Field        | Value                                                                               | Purpose                                                                        |
-| ------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| Plugin Name: | Alecaddd Plugin                                                                     |                                                                                |
-| Plugin URI:  | http://alecaddd.com/plugin                                                          | The website that the plugin calls home                                         |
-| Description: | This is my first attempt to write a custom Plugin for this amazing tutorial series. | Describe the plugin                                                            |
-| Version:     | 1.0.0                                                                               | Version number                                                                 |
-| Author:      | Alessandro "Alecadd" Castellani                                                     | Author name                                                                    |
-| Author URI:  | http://alecaddd.com                                                                 | When the user clicks the author name, this is the website it will take them to |
-| License:     | GPLv2 or later                                                                      | Use open source license                                                        |
-| Text Domain: | alecadd-plugin                                                                      | Same as folder name                                                            |
-
-**#GOTCHA:** Author says it is hard to release a plugin on official WP repository that is not open source so best just to use a GPL license.
-
-## Create New WordPress Install for tutorial
-
-Database Name: **tut_loc_alecadd_20230217**
+- Create new plugin folder - the folder name will be same as your main PHP file: `ehw-tutwrk-ele-oembed-widget/`
+- Create new addons main controller file: `ehw-tutwrk-ele-oembed-widget.php` inside plugin folder
+- Create file: `oembed-widget.php` in widgets/
 
 
+**file:** ehw-tutwrk-ele-oembed-widget.php
 
 
---- --- ---
+- Create comment block as follows:
 
-## Questions
+```php
+/**
+ * Plugin Name: Elementor oEmbed Widget
+ * Description: Auto embed any embbedable content from external URLs into Elementor.
+ * Plugin URI:  https://elementor.com/
+ * Version:     1.0.0
+ * Author:      Elementor Developer
+ * Author URI:  https://developers.elementor.com/
+ * Text Domain: elementor-oembed-widget
+ *
+ * Elementor tested up to: 3.16.0
+ * Elementor Pro tested up to: 3.16.0
+ */
+```
 
-  - **Q:** _Why is @package even necessary? What does it do?_
 
-
-## Cleanup
-
-- Set `WP_DEBUG` to false
-- Enable search engine visibility
-
+**file:** oembed-widget.php
 
 
 ---
