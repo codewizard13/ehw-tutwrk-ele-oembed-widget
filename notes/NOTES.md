@@ -18,7 +18,6 @@
 
 ---
 
-
 ### Folder Structure
 
 ```bash
@@ -63,7 +62,7 @@ define( 'WP_DEBUG_DISPLAY', false );
 - Create file: `oembed-widget.php` in widgets/
 
 
-##### **file:** ehw-tutwrk-ele-oembed-widget.php
+<span class="code-filename"> ehw-tutwrk-ele-oembed-widget.php</span>
 
 
 - Create comment block as follows:
@@ -84,7 +83,7 @@ define( 'WP_DEBUG_DISPLAY', false );
 ```
 
 
-**file:** oembed-widget.php
+<span class="code-filename">oembed-widget.php</span>
 
 
 ---
