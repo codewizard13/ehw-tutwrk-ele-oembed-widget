@@ -4,9 +4,9 @@
 
 <a class="bookmark-link" href="#bookmark">JUMP TO BOOKMARK</a>
 
-| **Tutorial Name**    | **Create a WordPress Plugin from Scratch [Playlist]**     |
+| **Tutorial Name**    | **Custom Elementor Widget: Simple Example**               |
 | -------------------- | --------------------------------------------------------- |
-| File Name            | NOTES.md                                                  |
+| File Name            | NOTES.md                                                 |
 | Date Created         | 12/28/23                                                  |
 | Date Modified        | --                                                        |
 | Platform             | Website                                                   |
@@ -14,7 +14,7 @@
 | Version              | 0.0.1                                                     |
 | Programmer / Student | **Eric Hepperle**                                         |
 
-* **Tutorial URL:** https://developers.elementor.com/docs/widgets/advanced-example/
+* **Tutorial URL:** https://developers.elementor.com/docs/widgets/simple-example/
 
 ---
 
@@ -63,7 +63,7 @@ define( 'WP_DEBUG_DISPLAY', false );
 - Create file: `oembed-widget.php` in widgets/
 
 
-**file:** ehw-tutwrk-ele-oembed-widget.php
+##### **file:** ehw-tutwrk-ele-oembed-widget.php
 
 
 - Create comment block as follows:
